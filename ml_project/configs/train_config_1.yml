@@ -1,0 +1,20 @@
+model: logisticRegression
+modelParams:
+  C: 3.3
+  solver: lbfgs
+split_size: 0.1
+augmentation: True
+standart: True
+preproccessing:
+    - X * X,X^2
+    - Y * Y,Y^2
+    - Z * Z,Z^2
+    - dX * dX,dX^2
+    - dY * dY,dY^2
+    - dZ * dZ,dZ^2
+    - X ** 3,X^3
+    - Y ** 3,Y^3
+    - Z ** 3,Z^3
+    - dX ** 3,dX^3
+    - dY ** 3,dY^3
+    - dZ ** 3,dZ^3

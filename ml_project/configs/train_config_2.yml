@@ -1,0 +1,13 @@
+model: lgbm
+modelParams:
+  objective: binary
+  num_leaves: 50
+  feature_fraction: 0.9
+  bagging_fraction: 0.9
+  learning_rate: 0.1
+  lambda_l2: 100
+  metric: auc 
+split_size: 0.1
+augmentation: False
+standart: False
+preproccessing: null
