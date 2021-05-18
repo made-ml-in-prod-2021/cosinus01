@@ -1,0 +1,6 @@
+model: logisticRegression
+modelParams:
+split_size: 0.1
+augmentation: False
+standart: False
+preproccessing:
