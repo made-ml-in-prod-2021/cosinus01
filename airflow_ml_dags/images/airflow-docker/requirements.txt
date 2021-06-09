@@ -1,0 +1,6 @@
+/home/airflow/.local/lib/python3.6/site-packages/mlproject-1.0-py2.py3-none-any.whl
+scikit-learn==0.24.1
+click
+pandas
+numpy
+matplotlib
