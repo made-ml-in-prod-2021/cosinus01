@@ -2,9 +2,7 @@ import os
 
 import airflow
 from airflow import DAG
-# from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
-# import pandas as pd
 from mlproject import data
 
 def _get_data(output_dir, n_samples=10000):
