@@ -20,7 +20,7 @@ def _get_data(output_dir, n_samples=10000):
 with DAG(
     dag_id="1_download",
     start_date=airflow.utils.dates.days_ago(14),
-    schedule_interval=None,
+    schedule_interval="@daily",
 ) as dag:
 
     download = PythonOperator(
